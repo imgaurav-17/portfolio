@@ -4,6 +4,9 @@ import 'boxicons/css/boxicons.min.css';
 import MediumCards from './MediumCards';
 
 function Contact() {
+  const githubUrl = import.meta.env.VITE_GITHUB_URL;
+  const linkedinUrl = import.meta.env.VITE_LINKEDIN_URL;
+  const mailId = import.meta.env.VITE_MAIL_ID;
   const form = useRef();
   const [showPopup, setShowPopup] = useState(false);
 
@@ -16,7 +19,6 @@ function Contact() {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
           setShowPopup(true);
           setTimeout(() => {
             setShowPopup(false);
@@ -37,9 +39,9 @@ function Contact() {
       </span>
       <div className='flex gap-11 pt-10 flex-col md:flex-row items-center justify-center'>
         <div>
-          <MediumCards icon='bx-mail-send' title='Mail' subtitle='gohelg4@gmail.com' urlTxt='Mail Me' url='mailto:gohelg4@gmail.com' />
-          <MediumCards icon='bxl-github' title='Github' subtitle='Gaurav-Gohel' urlTxt='Follow' url='https://github.com/imgaurav-17' />
-          <MediumCards icon='bxl-linkedin' title='LinkedIn' subtitle='Gaurav-Gohel' urlTxt='Connect' url='https://www.linkedin.com/in/gaurav-gohel/' />
+          <MediumCards icon='bx-mail-send' title='Mail' subtitle='gohelg4@gmail.com' urlTxt='Mail Me' url={`mailto:${mailId}` }/>
+          <MediumCards icon='bxl-github' title='Github' subtitle='Gaurav-Gohel' urlTxt='Follow' url={githubUrl} />
+          <MediumCards icon='bxl-linkedin' title='LinkedIn' subtitle='Gaurav-Gohel' urlTxt='Connect' url={linkedinUrl} />
         </div>
         <div>
           <div className="flex items-center justify-center">
