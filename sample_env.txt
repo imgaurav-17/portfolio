@@ -1,0 +1,10 @@
+VITE_GITHUB_URL = https://github.com/imgaurav-17
+VITE_LINKEDIN_URL = linkedin url
+VITE_INSTAGRAM_URL = add your instalink
+VITE_YOUR_NAME = Gaurav Gohel
+VITE_YOUR_ROLE = Frontend Developer
+VITE_YOUR_BIO = 👋 Hi, I am Gaurav Gohel, a dedicated web development enthusiast from Veraval, Gir Somnath. Currently, I am in my final year of pursuing a Bachelor of Computer Applications (BCA)., want to learn with experienced peers and grow more.
+VITE_MAIL_ID = yourmailid@gmail.com
+VITE_YOUR_IMAGE = https://i.pinimg.com/736x/f3/65/fc/f365fc369b9cd4d5f23e490b8c983156.jpg
+VITE_RESUME_URL = https://drive.google.com/file/d/141Xz8fTSpEKLqfTmbvLlD2vXxRjm8m7l/view
+VITE_ABOUT_IMAGE =  https://i.pinimg.com/736x/8f/b8/bd/8fb8bdf4c8a8e9bfdda99a10100982dd.jpg
